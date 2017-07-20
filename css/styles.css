@@ -123,6 +123,15 @@ nav a:visited:active {
   margin-bottom: .7em;
 }
 
+.image {
+  display: block;
+  align-items: center;
+  margin: 0 auto 1.5em auto;
+  height: 10em;
+  width: 10em;
+  border-radius: 50%;
+}
+
 .section p,
 .section ul,
 .section ol,
@@ -138,8 +147,14 @@ nav a:visited:active {
 }
 
 footer {
-  height: 5em;
+  height: 7em;
   background-color: #6892D5;
+}
+
+footer p {
+  color: #fff;
+  padding-top: .5em;
+  text-align: center;
 }
 
 .social-icons a{
@@ -157,9 +172,75 @@ footer {
 }
 
 .social-icons li {
-  margin: 1.5em auto;
+  margin: 1em auto;
   list-style-type: none;
   color: #fff;
+}
+
+.projects-container {
+  padding: 2em 1em;
+  border-top: 1px solid #D6D9DC;
+  border-radius: 5px;
+  margin: 0 auto;
+  max-width: 540px;
+}
+
+.projects {
+  margin-top: 1em;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.projects h2 {
+  font-size: 1em;
+  margin-bottom: .7em;
+}
+
+.window {
+  border: 1px solid #a3a6a8;
+  border-radius: .2em;
+  margin: 1em auto;
+  display: block;
+  height: 7em;
+  width: 10em;
+  background-color: #F8FCFB;
+}
+
+.window-header {
+  
+  height: 1.5em;
+  background-color: #a3a6a8;
+}
+
+.buttons {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: .5em;
+  max-width: 3em;
+}
+
+.exit-button {
+  width: .8em;
+  height: .8em;
+  background-color: #ff8080;
+  border-radius: 50%;
+}
+
+.max-button {
+  width: .8em;
+  height: .8em;
+  background-color: #ffe680;
+  border-radius: 50%
+}
+
+.min-button {
+  width: .8em;
+  height: .8em;
+  background-color: #70db70;
+  border-radius: 50%
 }
 
 @media only screen and (min-width: 580px) {
@@ -179,8 +260,11 @@ footer {
   .section--red {
     border: 1px solid #F09A9D;
   }
+  .image {
+  height: 12em;
+  width: 12em;
 }
-
+}
 
 @media only screen and (min-width: 750px) {
   nav {
@@ -192,6 +276,56 @@ footer {
   }
   .hero h1 {
   font-size: 3em;
+  }
+  .window {
+    border: 1px solid #a3a6a8;
+    border-radius: .2em;
+    margin: 1em auto;
+    display: block;
+    height: 10em;
+    width: 13em;
+    background-color: #F8FCFB;
+  }
+
+  .window-header {
+    
+    height: 1.5em;
+    background-color: #a3a6a8;
+  }
+
+  .buttons {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: .5em;
+    max-width: 3em;
+  }
+
+  .exit-button {
+    width: .8em;
+    height: .8em;
+    background-color: #ff8080;
+    border-radius: 50%;
+  }
+
+  .max-button {
+    width: .8em;
+    height: .8em;
+    background-color: #ffe680;
+    border-radius: 50%
+  }
+
+  .min-button {
+    width: .8em;
+    height: .8em;
+    background-color: #70db70;
+    border-radius: 50%
+  }
+
+  .image {
+  height: 15em;
+  width: 15em;
 }
 
 }
