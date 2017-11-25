@@ -197,6 +197,15 @@ footer p {
   margin-bottom: .7em;
 }
 
+.project-img {
+  border: none;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin: 0px;
+  height: 97px;
+  width: 179px;
+}
+
 .window {
   border: 1px solid #a3a6a8;
   border-radius: .2em;
@@ -285,6 +294,15 @@ footer p {
     height: 10em;
     width: 13em;
     background-color: #F8FCFB;
+  }
+
+  .project-img {
+    border: 2px solid #a3a6a8;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin: 0px;
+    height: 152px;
+    width: 233px;
   }
 
   .window-header {
