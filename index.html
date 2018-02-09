@@ -1,137 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Josue's Portfolio | Welcome</title>
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="css/font-awesome.min.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, , shrink-to-fit=no">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Josue's Portfolio | Welcome</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-    <div class="hero-container">
-      <div class="hero">
-        <h1 class="hero-comment">// life motto</h1>
-        <h1>
-          if (sad( ) === true) {<br />
-            sad( ).stop( );<br />
-            beAwesome( );<br />
-          }</h1>
-      </div>
-    </div>
-  </header>
-  <section id="about" class="section section--gray">
-    
-      <img class="image" src="images/thumbnail.png" alt="A picture of Josue Guerrero">
-    
-    <h2>About Me</h2>
-    <p>
-      Hi, my name's Josue Guerrero and I'm a front-end 
-      developer.</p>
-    <p>
-      The First time I got drawn into the world of computers
-      was when my dad brought home a brand new PC with 
-      Windows 98 OS, at the time I thought it was the best 
-      thing in the world. I would play MS-DOS games in it 
-      and think how this square box could run games, and 
-      how to make them.
-    </p>
-    <p>
-      I've decided that I want to be a Web Developer and 
-      so my journey begins. I'm a young Venezuelan man, 
-      married and with alot of hunger for new knowledge.
-    </p>
-    <p>I've currently finished some HTML5 and CSS3 courses 
-      and moving onward to JavaScript ones, so check back 
-      anytime and see if I've made any changes.
-    </p>
-    <p>
-      This portfolio has been uploaded to gitHub so if you 
-      want to use it its all for the taking, although I would
-      love to see what you made with it in end, so if you wish 
-      I'd love to hear from you.
-    </p>
-  </section>
-  <section id="projects" class="projects-container">
-    <h2>My Projects</h2>
-    <div class="projects">
-      <div class="window">
-        <div class="window-header">
-          <div class="buttons">
-            <div class="exit-button"></div>
-            <div class="max-button"></div>
-            <div class="min-button"></div>
-          </div>
-        </div>
-        <a href="https://yiosh.github.io/landing-page/"><img class="project-img" src="https://i.imgur.com/gCQVmHc.jpg" alt="Simple Landing Page"></a>
-      </div>
+	<header>
+		<nav>
+			<div class="navbar navbar-expand-lg navbar-dark bg-dark">
+				<a class="navbar-brand" href="/">Josue D. Guerrero B.</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
 
-      <div class="window">
-        <div class="window-header">
-          <div class="buttons">
-            <div class="exit-button"></div>
-            <div class="max-button"></div>
-            <div class="min-button"></div>
-          </div>
-        </div>
-        <a href="https://yiosh.github.io/drum-kit/"><img class="project-img" src="https://i.imgur.com/zoDxlC0.jpg" alt="A Drum Kit"></a>
-      </div>
-      <div class="window">
-        <div class="window-header">
-          <div class="buttons">
-            <div class="exit-button"></div>
-            <div class="max-button"></div>
-            <div class="min-button"></div>
-          </div>
-        </div>
-        <a href="https://yiosh.github.io/app-theme/"><img class="project-img" src="https://i.imgur.com/51VyEM3.jpg" alt="Apptheme landing page"></a>
-      </div>
-      <div class="window">
-        <div class="window-header">
-          <div class="buttons">
-            <div class="exit-button"></div>
-            <div class="max-button"></div>
-            <div class="min-button"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item active">
+							<a class="nav-link" href="/">Home
+								<span class="sr-only">(current)</span>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#about">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#projects">Projects</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#contact">Contact</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div class="hero-container">
+			<div class="hero">
+				<div class="motto">
+					<code>
+						<span class="comment">//life motto</span><br>
+						<span class="cyan">if</span> (<span class="light-blue">sad</span>( ) <span class="pink">===</span> <span class="orange">true</span>) <span class="cyan">{</span>
+<pre>
+  <span class="light-blue">sad</span>( )<span>.</span><span class="light-blue">stop</span>( )<span class="cyan">;</span>
+  <span class="light-blue">beAwesome</span>( )<span class="cyan">;</span>
+</pre><span class="cyan">}</span>
+					</code>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section id="welcome-section" class="section welcome">
+		<h1>Welcome and make yourself at home!</h1>
+	</section>
 
-  <footer id="contact">
-    <p>You can contact me via:</p>
-    <div class="social-icons">
-      <ul>
-        <li>
-          <a href="https://www.facebook.com/yioshie" target="_blank">
-            <i class="fa fa-facebook-square fa-lg"></i>
-          </a>
-        </li>
-        <li>
-          <a href="https://twitter.com/yioshie" target="_blank">
-            <i class="fa fa-twitter fa-lg"></i>
-          </a>
-        </li>
-        <li>
-          <a href="https://github.com/Yiosh/" target="_blank">
-            <i class="fa fa-github fa-lg"></i>
-          </a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/josue-guerrero-b51382100/" target="_blank">
-            <i class="fa fa-linkedin-square fa-lg"></i>
-          </a>
-        </li>
-      </ul>
-    </div>
-  </footer>
+	<section id="about" class="section section--gray">
+
+		<img class="image" src="images/thumbnail.png" alt="A picture of Josue Guerrero">
+
+		<h2>About Me</h2>
+
+		<p>
+			Hi, my name's Josue Guerrero and I'm a front-end developer.
+		</p>
+		<p>
+			The First time I got drawn into the world of computers was when my dad brought home a brand new PC with Windows 98 OS, at the time I thought it was the best thing in the world. I would play MS-DOS games in it and think how this square box could run games, and how to make them.
+		</p>
+		<p>
+			I've decided that I want to be a Web Developer and so my journey begins. I'm a young Venezuelan man, married and with alot of hunger for new knowledge.
+		</p>
+		<p>
+			I've currently finished some HTML5 and CSS3 courses and moving onward to JavaScript ones, so check back anytime and see if I've made any changes.
+		</p>
+		<p>
+			This portfolio has been uploaded to gitHub so if you want to use it its all for the taking, although I would love to see what you made with it in end, so if you wish I'd love to hear from you.
+		</p>
+
+	</section>
+
+	<section id="projects" class="projects-container">
+		<h2>My Projects</h2>
+		<div class="projects">
+			<div class="window">
+				<div class="window-header">
+					<div class="buttons">
+						<div class="exit-button"></div>
+						<div class="max-button"></div>
+						<div class="min-button"></div>
+					</div>
+				</div>
+				<a href="https://yiosh.github.io/landing-page/">
+					<img class="project-img" src="https://i.imgur.com/gCQVmHc.jpg" alt="Simple Landing Page">
+				</a>
+			</div>
+
+			<div class="window">
+				<div class="window-header">
+					<div class="buttons">
+						<div class="exit-button"></div>
+						<div class="max-button"></div>
+						<div class="min-button"></div>
+					</div>
+				</div>
+				<a href="https://yiosh.github.io/drum-kit/">
+					<img class="project-img" src="https://i.imgur.com/zoDxlC0.jpg" alt="A Drum Kit">
+				</a>
+			</div>
+			<div class="window">
+				<div class="window-header">
+					<div class="buttons">
+						<div class="exit-button"></div>
+						<div class="max-button"></div>
+						<div class="min-button"></div>
+					</div>
+				</div>
+				<a href="https://yiosh.github.io/app-theme/">
+					<img class="project-img" src="https://i.imgur.com/51VyEM3.jpg" alt="Apptheme landing page">
+				</a>
+			</div>
+		</div>
+	</section>
+
+	<footer id="contact">
+		<p>You can contact me via:</p>
+		<div class="social-icons">
+			<ul>
+				<li>
+					<a href="https://www.facebook.com/yioshie" target="_blank">
+						<i class="fa fa-facebook-square fa-lg"></i>
+					</a>
+				</li>
+				<li>
+					<a href="https://twitter.com/yioshie" target="_blank">
+						<i class="fa fa-twitter fa-lg"></i>
+					</a>
+				</li>
+				<li>
+					<a href="https://github.com/Yiosh/" target="_blank">
+						<i class="fa fa-github fa-lg"></i>
+					</a>
+				</li>
+				<li>
+					<a href="https://www.linkedin.com/in/josue-guerrero-b51382100/" target="_blank">
+						<i class="fa fa-linkedin-square fa-lg"></i>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</footer>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<!-- <script type="text/javascript" src="https://gitcdn.link/repo/freeCodeCamp/testable-projects-fcc/master/build/bundle.js"></script> -->
 </body>
+
 </html>
